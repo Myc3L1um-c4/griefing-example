@@ -1,5 +1,5 @@
 assembly {
-    success := call((
+    success := call(
         gasLimit,
         receiver,
         amount,
@@ -7,5 +7,5 @@ assembly {
         0, // insize
         0, // out
         0, //outsize
-    ))
+    )
 }
